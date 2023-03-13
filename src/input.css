@@ -51,6 +51,14 @@ body {
     );
 }
 
+.walk_time {
+        background-image: linear-gradient(
+        to left,
+        var(--Light-Violet),
+        var(--Light-Magenta)
+    );
+}
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
