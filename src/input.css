@@ -9,12 +9,12 @@
 
   /* #### Text */
 
-  --Pale-Violet-sub-heading-at-the-top-of-the-app-UI: hsl(276, 100%, 81%);
-  --Moderate-Violet-chat-on-the-left: hsl(276, 55%, 52%);
-  --Desaturated-Dark-Violet-chat-on-the-right: hsl(271, 15%, 43%);
-  --Grayish-Blue-placeholder-text: hsl(206, 6%, 79%);
+  --Pale-Violet-sub-heading-at-the-top-of-the-app-UI: #d89eff;
+  --Moderate-Violet-chat-on-the-left: #9241c8;
+  --Desaturated-Dark-Violet-chat-on-the-right: #6e5d7e;
+  --Grayish-Blue-placeholder-text: #c6cacd;
   --Very-Dark-Desaturated-Violet-main-heading: #3e2753;
-  --Dark-Grayish-Violet-paragraph: hsl(270, 7%, 64%);
+  --Dark-Grayish-Violet-paragraph: #a39daa;
 
   /* #### Gradients */
 
@@ -41,6 +41,14 @@ body {
     var(--Light-Magenta),
     var(--Light-Violet)
   );
+}
+
+.phone_top_bg {
+    background-image: linear-gradient(
+        to right,
+        var(--Light-Violet),
+        var(--Light-Magenta)
+    );
 }
 
 .attribution {
