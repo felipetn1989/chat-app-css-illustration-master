@@ -1020,14 +1020,17 @@ body {
     grid-template-areas:
       "one two"
       "three three";
+    grid-template-columns: 1fr 1fr;
   }
 
   header {
     grid-area: one;
+    place-self: center center;
   }
 
   main {
     grid-area: two;
+    place-self: center center
   }
 
   footer {
@@ -1063,5 +1066,9 @@ body {
   .lg\:translate-x-\[unset\] {
     --tw-translate-x: unset;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:place-content-center {
+    place-content: center;
   }
 }

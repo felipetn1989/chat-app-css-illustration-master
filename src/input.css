@@ -73,14 +73,17 @@ body {
     grid-template-areas:
       "one two"
       "three three";
+    grid-template-columns: 1fr 1fr;
   }
 
   header {
     grid-area: one;
+    place-self: center center;
   }
 
   main {
     grid-area: two;
+    place-self: center center
   }
 
   footer {
