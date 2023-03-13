@@ -44,19 +44,19 @@ body {
 }
 
 .phone_top_bg {
-    background-image: linear-gradient(
-        to right,
-        var(--Light-Violet),
-        var(--Light-Magenta)
-    );
+  background-image: linear-gradient(
+    to right,
+    var(--Light-Violet),
+    var(--Light-Magenta)
+  );
 }
 
 .walk_time {
-        background-image: linear-gradient(
-        to left,
-        var(--Light-Violet),
-        var(--Light-Magenta)
-    );
+  background-image: linear-gradient(
+    to left,
+    var(--Light-Violet),
+    var(--Light-Magenta)
+  );
 }
 
 .attribution {
@@ -66,4 +66,24 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 60em) {
+  body {
+    grid-template-areas:
+      "one two"
+      "three three";
+  }
+
+  header {
+    grid-area: one;
+  }
+
+  main {
+    grid-area: two;
+  }
+
+  footer {
+    grid-area: three;
+  }
 }
