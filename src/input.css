@@ -27,8 +27,8 @@
 
   --White: hsl(0, 0%, 100%);
   --Light-Grayish-Violet-app-background: #f5f3f7;
-  --Very-Dark-Desaturated-Violet-submit-button-background: hsl(271, 36%, 24%);
-  --Very-Light-Magenta-radio-button-outline: hsl(289, 100%, 72%);
+  --Very-Dark-Desaturated-Violet-submit-button-background: #3e2753;
+  --Very-Light-Magenta-radio-button-outline: #e570ff;
 }
 
 body {
