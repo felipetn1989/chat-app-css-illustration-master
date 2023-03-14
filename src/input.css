@@ -83,7 +83,7 @@ body {
 
   main {
     grid-area: two;
-    place-self: center center
+    place-self: end center
   }
 
   footer {
